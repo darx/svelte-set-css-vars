@@ -118,15 +118,15 @@ npm install svelte-set-css-vars
 
 <svelte:body use:setVars={variables} />
 
-<!-- OR LOCALISE CSS VARIABLES* var(-->
+<!-- OR LOCALISE CSS VARIABLES -->
 
 <div use:setVars={variables}></div>
 
 <style>
   div {
-    font-family: * var(--global-font-name);
+    font-family: var(--global-font-name);
   }
-  
+
   /**
   * var(--global-font-size);
   * var(--global-font-colour);
