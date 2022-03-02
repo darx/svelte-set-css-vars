@@ -1,0 +1,24 @@
+{
+  "name": "svelte-set-css-vars",
+  "version": "0.0.2",
+  "author": "Thomas Casey <thomas@athnua.ie>",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest --no-cache",
+    "test:watch": "jest --no-cache --watchAll",
+    "format": "prettier --loglevel silent --write \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.5.1",
+    "rollup": "^2.68.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
